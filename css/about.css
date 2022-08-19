@@ -1,0 +1,44 @@
+.about-section {
+	margin-top: 88px;
+}
+
+.about-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-info {
+	width: 100%;
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+}
+
+.about-img {
+	width: 100%;
+	max-width: 50%;
+}
+
+.about-greeting {
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-weight: 800;
+	color: var(--primary-text-color);
+}
+
+.about-name {
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: var(--primary-color);
+	font-weight: 900;
+	font-size: 4em;
+}
+
+.about-description {
+	color: var(--secondary-color);
+}

@@ -1,0 +1,32 @@
+
+.projects {
+	width: 100%;
+	justify-content: center;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 30%;
+	margin: 0.75em;
+	border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.project:hover {
+	color: var(--primary-color);
+	border-color: var(--primary-color);
+}
+
+.project-name {
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.phoneapps {
+	width: 64%;
+
+}

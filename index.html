@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trabajo Práctico Portfolio" />
+    <title>Mercedes Quinterno</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"/>
+
+    <!-- ##### estilos en css #####-->
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/layout.css"/>
+    <link rel="stylesheet" href="./css/header.css"/>
+    <link rel="stylesheet" href="./css/about.css"/>
+    <link rel="stylesheet" href="./css/skills.css"/>
+    <link rel="stylesheet" href="./css/quote.css"/>
+    <link rel="stylesheet" href="./css/projects.css"/>
+	  <link rel="stylesheet" href="./css/contact.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="stylesheet" href="./css/media.css"/>
+  </head>
+  <body>
+
+    <!-- ##### Comienzo del Header ##### -->
+    <header class="header">
+      <div class="menu-icon-container">
+        <nav class="header-nav">
+          <!-- Menú de navegación -->
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">HOLA</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">CONOCIMIENTOS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">PROYECTOS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link selected">CONTACTO</a>
+            </li>
+          </ul>
+          <!-- Fin del Menú de navegación -->
+        </nav>      
+      </div>
+    </header>
+    <!-- ##### Final Header ##### -->
+
+    <section class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
+      <button class="close-menu-btn" aria-label="Cerrar Menú" tabindex="-1">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+      <h2 class="sidebar-title">Secciones</h2>
+      <nav>
+        <!-- Menú de navegación -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link" tabindex="-1">HOLA</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link" tabindex="-1">CONOCIMIENTOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link" tabindex="-1">PROYECTOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" tabindex="-1">CONTACTO</a>
+          </li>
+        </ul>
+        <!-- Fin menú de navegación -->
+      </nav>
+    </section>
+
+    <!-- ##### Comienzo de la Sección Hola (About Me) ##### -->
+    <section class="section about-section" id="about">
+      <div class="column content about-content">
+        <div class="about-info">
+          <p class="about-greeting name">¡Hola! Soy</p>
+          <h1 class="about-name">Mercedes Quinterno</h1>
+          <p class="about-description">
+            Estudiante de Letras, futura programadora y amante de las historias y los idiomas.
+          </p>
+          <a href="#projects" class="button">LO QUE HAGO</a>
+        </div>
+        <img class="about-img" src="./imagenes/Work-in-desk.svg" alt="Ilustración de una profesional en su escritorio"/>
+      </div>
+    </section>
+    <!-- ##### Final de la Sección Hola (About Me) ##### -->
+
+    <!-- ##### Comienzo de la Sección Mis Conocimientos ##### -->
+    <section class="section skills-section" id="skills">
+      <div class="column content skills-content">
+        <h2 class="section-title">Mis conocimientos</h2>
+        <p class="section-description">
+          En esta sección iré actualizando los lenguajes en los que soy competente.
+        </p>
+        <div class="grid skills-grid">
+          <div class="skill grid-item">
+            <i class="devicon-html5-plain colored skill-icon"></i>
+            <p class="skill-title">HTML 5</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-css3-plain colored skill-icon"></i>
+            <p class="skill-title">CSS 3</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-sass-plain colored skill-icon"></i>
+            <p class="skill-title">Sass</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-javascript-plain colored skill-icon"></i>
+            <p class="skill-title">JavaScript</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-react-plain colored skill-icon"></i>
+            <p class="skill-title">React</p>
+          </div>
+          <div class="skill grid-item">
+            <i class="devicon-git-plain colored skill-icon"></i>
+            <p class="skill-title">GIT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Fin de la Sección Mis Conocimientos ##### -->
+
+        <!-- ##### Inicio de la Sección Cita #####-->
+
+    <section class="section quote-section">
+      <div class="column content">
+        <i class="fas fa-quote-right quote-icon"></i>
+        <blockquote>
+          <p class="quote">
+            El placer más noble es el júbilo de comprender.
+          </p>
+        </blockquote>
+        <h2 class="quote-author">Leonardo Da Vinci</h2>
+      </div>
+    </section>
+    <!-- ##### Final de Cita ##### -->
+    <!-- ##### Comienzo Sección Mis Proyectos ##### -->
+    <section class="section project-section" id="projects">
+      <div class="column content">
+        <h2 class="section-title">Mis proyectos</h2>
+        <p class="section-description">
+          En esta sección iré mostrando mis proyectos, a medida que los complete.
+        </p>
+        <!-- ## Div de proyectos ##-->
+        <div class="grid projects">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="html-css"
+          >
+            <img 
+              src="./imagenes/Work-in-desk.svg"
+              alt="Ilustración de una profesional en su escritorio"
+              class="project-thumb"
+            />
+            <p class="project-name">Portfolio</p>
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="javascript"
+          >
+            <img
+              src="./imagenes/meme-generator.svg"
+              alt="Una mujer eligiendo imágenes en una pantalla gigante"
+              class="project-thumb"
+            />
+            <p class="project-name">Generador de memes</p>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="javascript"
+          >
+            <img
+              src="./imagenes/videogames.svg"
+              alt="Una mujer y un hombre apoyados en unos auriculares y un joystick gigantes"
+              class="project-thumb"
+            />
+            <p class="project-name">Match 3</p>
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="javascript"
+          >
+            <img
+              src="./imagenes/personal-finance.svg"
+              alt="Un hombre rodeado de estadísticas y monedas virtuales"
+              class="project-thumb"
+            />
+            <p class="project-name">Controlador de gastos</p>
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="javascript"
+          >
+            <img
+              src="./imagenes/online_calendar.svg"
+              alt="Una mujer al lado de un calendario gigante"
+              class="project-thumb"
+            />
+            <p class="project-name">Administrador de reuniones</p>
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="react"
+          >
+            <img
+              src="./imagenes/phone-apps.svg"
+              alt="Una mujer sostiene una app en su mano, apoyada en un celular gigante con el menú abierto"
+              class="project-thumb phoneapps"
+            />
+            <p class="project-name">Todo app</p>
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project"
+            data-language="react"
+          >
+            <img
+              src="./imagenes/home_cinema.svg"
+              alt="Un hombre con anteojos 3D está sentado en un sofá sosteniendo un balde de pochoclos con ambas manos"
+              class="project-thumb"
+            />
+            <p class="project-name">Buscador de películas</p>
+          </a>
+        </div>
+        <!-- ## Final del Div de proyectos ##-->
+      </div>
+    </section>
+    <!-- ##### Fin de la Sección Mis Proyectos ##### -->
+
+    <!-- ##### Comienzo de la Sección Contacto ##### -->
+    <section class="section contact-section" id="contact">
+      <div class="column">
+        <div class="contact">
+          <section class="contact-column">
+            <h2 class="section-title">Contactame</h2>
+            <p class="section-description">
+              Ante cualquier consulta que te surja acerca de mis trabajos, podés encontrarme en mis redes: 
+            </p>
+            <section class="social-network-links">
+              <ul class="contact-social-links">
+                <li class="contact-social-item">
+                  <a
+                    href="https://www.instagram.com/mer_qc" class="contact-social-link instagram-link">
+                  <i class="fab fa-instagram contact-social-icon"></i>@Mer_qc</a>
+                </li>
+                <li class="contact-social-item">
+                  <a
+                    href="https://github.com/Mercedes-Quinterno"
+                    class="contact-social-link github-link">
+                    <i class="fab fa-github-alt contact-social-icon"></i>Mercedes-Quinterno</a>
+                </li>
+                <li class="contact-social-item">
+                  <a
+                    href="https://www.linkedin.com/in/mercedes-quinterno/"
+                    class="contact-social-link linkedin-link">
+                    <i class="fab fa-linkedin-in contact-social-icon"></i>Mercedes Quinterno</a>
+                </li>
+                <li class="contact-social-item">
+                  <a
+                    href="mailto:mercedes.quinterno89@gmail.com"
+                    class="contact-social-link email-link">
+                    <i  class="fas fa-envelope contact-social-icon"></i> mercedes.quinterno89@gmail.com</a>
+                </li>
+              </ul>
+            </section>
+          </section>
+          <section class="contact-column">
+            <h2 class="section-title">Escribime</h2>
+            <form
+              action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj"
+              method="POST"
+              class="contact-form">
+              <div class="contact-input-wrapper">
+                <div class="form-control">
+                  <label for="firstname">Nombre *</label>
+                  <input
+                    type="text"
+                    name="Nombre"
+                    id="firstname"
+                    class="input-firstname input-control"
+                    placeholder="Escribí tu nombre aquí"
+                    required
+                  />
+                  <i
+                    class="far fa-times-circle icon-invalid"
+                  ></i>
+                  <i
+                    class="far fa-check-circle icon-valid"
+
+                  ></i>
+                </div>
+                <div class="form-control">
+                  <label for="lastname">Apellido *</label>
+                  <input
+                    type="text"
+                    name="Apellido"
+                    id="lastname"
+                    class="input-lastname input-control"
+                    placeholder="Escribí tu apellido aquí"
+                    
+                    required
+                  />
+                  <i
+                    class="far fa-times-circle icon-invalid"
+                  ></i>
+                  <i
+                    class="far fa-check-circle icon-valid"
+                  ></i>
+                </div>
+              </div>
+              <div class="form-control">
+                <label for="email">Email *</label>
+                <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  class="input-control"
+                  placeholder="Escribí tu email aquí"
+                  required
+                />
+                <i
+                  class="far fa-times-circle icon-invalid"
+                ></i>
+                <i
+                  class="far fa-check-circle icon-valid"
+                ></i>
+              </div>
+              <div class="form-control">
+                <label for="message">Mensaje *</label>
+                <textarea
+                  name="Mensaje"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  class="input-control"
+                  placeholder="Escribí un mensaje aquí"
+                  required
+                ></textarea>
+                <i
+                  class="far fa-times-circle icon-invalid"
+                ></i>
+                <i
+                  class="far fa-check-circle icon-valid"
+                ></i>
+              </div>
+              <button type="submit" class="contact-send-btn button">
+                Enviar
+              </button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Fin de la Sección Contacto ##### -->
+
+    <!-- ##### Comienzo del Footer ##### -->
+    <footer>
+      <!-- ## Comienzo del Nav del footer ## -->
+      <nav class="footer-nav">
+        <ul class="nav-menu">
+          <li class="footer-nav-item">
+            <a href="#about" class="footer-nav-link">HOLA</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#skills" class="footer-nav-link">CONOCIMIENTOS</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#projects" class="footer-nav-link">PROYECTOS</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#contact" class="footer-nav-link">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ## Fin del Nav del footer ## -->
+      <ul class="footer-social-links">
+        <li class="footer-social-item">
+          <a href="https://www.instagram.com/mer_qc" class="footer-social-link instagram-link">
+            <i class="fab fa-instagram footer-social-icon"></i>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="https://github.com/Mercedes-Quinterno" class="footer-social-link github-link" aria-label="Github">
+            <i class="fab fa-github-alt footer-social-icon"></i>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="https://www.linkedin.com/in/mercedes-quinterno/"
+            class="footer-social-link linkedin-link">
+            <i class="fab fa-linkedin-in footer-social-icon"></i>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="mailto:mercedes.quinterno89@gmail.com" class="footer-social-link email-link">
+            <i class="fas fa-envelope footer-social-icon"></i>
+          </a>
+        </li>
+      </ul>
+      Hecho con ❤️
+    </footer>
+    <!-- ##### Final del Footer ##### -->
+  </body>
+</html>

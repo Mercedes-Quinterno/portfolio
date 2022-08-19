@@ -1,0 +1,37 @@
+.header {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	transition: var(--transition);
+	box-shadow: 0 0 2em gray;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 1.5em 0;
+	z-index: 1;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 1000px;
+}
+
+.nav-menu {
+	display: flex;	
+	margin: 0;
+}
+
+.nav-item {
+	margin: 0 0.6em;
+}
+
+.nav-link {
+	line-height: 2.5;
+	padding: 0 0.6em;
+	border-radius: 100px;
+}
+
+.nav-link.selected {
+	padding: 0 1.5em;
+}

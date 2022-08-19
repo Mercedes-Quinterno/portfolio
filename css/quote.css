@@ -1,0 +1,20 @@
+.quote-section {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.quote-icon {
+	font-size: 5em;
+	margin-bottom: 20px;
+}
+
+.quote {
+	font-size: 1.2em;
+	max-width: 800px;
+}
+
+.quote-author {
+	font-size: 1.69em;
+	color: white;
+	margin-bottom: 0;
+}

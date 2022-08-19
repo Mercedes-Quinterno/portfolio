@@ -1,0 +1,86 @@
+.contact-section {
+	background-color: #f6f7fb;
+	padding-top: 200px;
+}
+
+.contact {
+	display: flex;
+	text-align: left;
+	background-color: white;
+	padding: 80px 60px;
+	border-radius: 15px;
+	border: 1px solid #e0e0e0;
+}
+
+.contact-column {
+	width: 50%;
+}
+
+.contact-column:first-of-type {
+	padding-right: 20px;
+}
+
+.contact-social-links {
+	margin-top: 40px;
+	transition: var(--transition);
+}
+
+.contact-social-item {
+	display: flex;
+	margin: 5px 0;
+}
+
+.contact-social-link {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	border-radius: 100px;
+}
+
+.contact-social-link:hover {
+	color: var(--primary-color);
+}
+
+.contact-social-icon {
+	display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    margin-right: 10px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.contact-social-link:hover .contact-social-icon {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+
+.contact-input-wrapper {
+	display: flex;
+}
+
+
+.icon-invalid, .icon-valid {
+	color:	#f5414f;
+	display: none;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	transform: translateY(50%);
+}
+
+.form-control {
+    margin-bottom: 15px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.contact-send-btn {
+	border-style: none;
+}
